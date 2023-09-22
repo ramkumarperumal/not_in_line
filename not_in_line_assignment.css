@@ -1,0 +1,1174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.header-container {
+    display: flex;
+    flex-shrink: 1;
+    height: 42px;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .header-container {
+        height: 83px;
+        justify-content: space-evenly;
+    }
+}
+
+.header-logo {
+    width: 28.88px;
+    height: 29px;
+}
+
+.header-logo-name {
+    width: 98.12px;
+    height: 29px;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    .header-logo {
+        height: 64px;
+        width: 63px;
+
+    }
+
+    .header-logo-name {
+        height: 64px;
+        width: 214px;
+
+    }
+}
+
+
+.header-nav-container-md {
+    display: none;
+}
+
+.header-btn-container-md {
+    display: none;
+}
+
+.header-playstore-btn-md {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .header-nav-container-md {
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+
+    .nav-item {
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: rgba(0, 0, 0, 1);
+        margin-right: 32px;
+    }
+
+    .active {
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(19, 142, 209, 1);
+    }
+
+    .header-btn-container-md {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-btn {
+        width: 113px;
+        height: 35px;
+        border-radius: 4px;
+        border-width: 0px;
+        background-color: rgba(0, 72, 108, 1);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        color: rgba(255, 255, 255, 1);
+        margin-right: 16px;
+
+    }
+
+    .header-playstore-btn-md {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 115px;
+        height: 35px;
+        border-radius: 4px;
+        border-width: 0px;
+        background-color: rgba(51, 51, 51, 1);
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 25px;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .header-playstore-icon {
+        font-size: 12px;
+        margin-right: 6px;
+        color: rgba(255, 255, 255, 1);
+
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+
+    .nav-item {
+        font-size: 16px;
+    }
+
+    .active {
+        font-size: 20px;
+    }
+
+
+
+}
+
+.header-hamburger-icon-sm {
+
+    background-color: transparent;
+    border: 0px;
+
+}
+
+.header-nav-container-sm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 32px;
+    list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+    .header-hamburger-icon-sm {
+        display: none;
+    }
+
+    .header-nav-container-sm {
+        display: none;
+    }
+}
+
+.labpage-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 42px;
+
+}
+
+@media screen and (max-width: 767px) {
+    .labpage-container {
+        display: block;
+    }
+}
+
+.form-container {
+    margin: auto;
+    width: 90%;
+    max-width: 470px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    border-radius: 34px;
+
+
+}
+
+@media screen and (max-width:992px) {
+    .form-container {
+        padding: 15px;
+    }
+}
+
+.form-para {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(47, 47, 47, 1);
+    margin-top: 24px;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+
+}
+
+.form-input-icon {
+    width: 26.83px;
+    height: 24.82px;
+    margin-right: 8px;
+    margin-top: 20px;
+    color: rgba(19, 142, 209, 1);
+
+}
+
+.form-input {
+    width: 100%;
+    max-width: 299px;
+    height: 47px;
+    background-color: rgba(227, 227, 227, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+    color: rgba(110, 110, 110, 1);
+    padding-left: 42px;
+    border-radius: 5px;
+    border-color: transparent;
+
+}
+
+.form-input-checkbox {
+    width: 22px;
+    height: 22px;
+    margin-right: 16px;
+}
+
+.form-input-checkbox-label {
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+
+    color: rgba(47, 47, 47, 1);
+
+}
+
+.form-label-span {
+    font-weight: 600;
+}
+
+.form-submit-btn {
+    width: 236px;
+    height: 42px;
+    background-color: rgba(19, 142, 209, 1);
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 1);
+    border-color: transparent;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 34px;
+
+}
+
+.price-container {
+    width: 608px;
+    height: 70px;
+
+    position: relative;
+    display: flex;
+}
+
+
+.price-con-para1 {
+    width: 470px;
+    height: 70px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    background-color: #00486C;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+.price-para-span {
+    font-size: 20px;
+
+}
+
+.price-con-para2 {
+    width: 194px;
+    height: 67px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    left: 380px;
+    padding-right: 15px;
+    z-index: -1;
+    border-radius: 34px;
+    background: #00A6FF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+
+.labpage-review-container {
+    background-image: url('https://res.cloudinary.com/dynbs55bk/image/upload/v1695127989/not_in_line/medium-shot-woman-looking-through-microscope-removebg-preview_1_1_k4ilb9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 623px;
+    width: 90%;
+    max-width: 603px;
+}
+
+.labpage-review-con-para {
+
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px;
+    color: #333333;
+    text-align: center;
+
+
+
+}
+
+.underline {
+    background-image: url('https://res.cloudinary.com/dynbs55bk/image/upload/v1695127990/not_in_line/Vector_1_gfg2gg.png');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 100% 12px;
+    color: #138ED1;
+    padding-bottom: 15px;
+}
+
+.labpage-review-items {
+    width: 45%;
+}
+
+.labpge-review-item {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 166px;
+    height: 89px;
+    border-radius: 13px;
+    background: rgba(110, 110, 110, 0.22);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.labpge-review-item:nth-child(odd) {
+    margin-left: auto;
+}
+
+.labpage-review-item-img {
+    width: 45px;
+    height: 45px;
+    margin-right: 8px;
+
+}
+
+.labpage-review-item-para {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgba(51, 51, 51, 1);
+
+}
+
+
+.labpage-logo-name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width:767px) {
+    .labpage-logo-name-container {
+        flex-direction: column;
+    }
+}
+
+.labpage-logo-name-item {
+    display: flex;
+    align-items: center;
+    margin-right: 46px;
+    margin-top: 24px;
+}
+
+.labpage-logo {
+
+    width: 60px;
+    height: 66px;
+
+}
+
+.labpage-name {
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(51, 51, 51, 1);
+
+
+}
+
+
+@media screen and (max-width: 991px) {
+    .price-container {
+        display: none;
+    }
+
+    .labpage-review-container {
+        display: none;
+    }
+}
+
+
+.labpage-review-con-para-sm {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: center;
+    color: #333333;
+
+
+}
+
+@media screen and (min-width:768px) {
+    .labpage-review-con-para-sm {
+        display: none;
+    }
+}
+
+.labpage-body-check-price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+    width: 90%;
+}
+
+@media screen and (min-width: 992px) {
+    .labpage-body-check-price-container {
+        display: none;
+    }
+}
+
+.labpage-body-check-price-btn1-sm {
+    width: 100%;
+    height: 44px;
+    border-radius: 35px;
+    border: 1px;
+    background-color: #00486C;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.labpage-body-check-price-btn2-sm {
+    width: 70%;
+    height: 33px;
+    border-radius: 34px;
+    background: rgba(0, 166, 255, 1);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: #ffffff;
+}
+
+
+
+.expanding-container {
+    margin-top: 24px;
+}
+
+.expanding-heading {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px;
+    color: #333333;
+    text-align: center;
+
+
+}
+
+.expanding-span {
+    background-image: url('https://res.cloudinary.com/dynbs55bk/image/upload/v1695127990/not_in_line/Vector_1_gfg2gg.png');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 100% 12px;
+    color: #138ED1;
+}
+
+
+.expanding-item-container {
+    margin-top: 112px;
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.expanding-item {
+    width: 138px;
+    height: 72px;
+    border-radius: 16px;
+    border: 1px solid rgba(19, 142, 209, 1);
+    background: rgba(19, 142, 209, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+
+}
+
+@media screen and (max-width: 767px) {
+    .expanding-item {
+        width: 151px;
+        height: 79px;
+
+    }
+}
+
+.expanding-item-para1 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 0px;
+
+}
+
+.expanding-item-para2 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0px;
+}
+
+
+.labpage-package-container {
+    margin-top: 48px;
+}
+
+.labpage-package-heading {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px;
+    color: #000000;
+    text-align: center;
+
+}
+
+.labpage-package-heading-span {
+    background-image: url('https://res.cloudinary.com/dynbs55bk/image/upload/v1695127990/not_in_line/Vector_1_gfg2gg.png');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 100% 12px;
+    color: #138ED1;
+}
+
+.labpage-package-para {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    color: rgba(110, 110, 110, 1);
+    text-align: center;
+    width: 90%;
+}
+
+.labpage-package-item-container {
+
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+
+@media screen and (max-width:767px) {
+    .labpage-package-item-container {
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+
+
+    }
+}
+
+.labpage-package-item {
+
+    width: 100%;
+    max-width: 353px;
+    min-height: 339px;
+    box-sizing: border-box;
+
+    padding: 20px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 24px;
+
+}
+
+@media screen and (max-width: 767px) {
+    .labpage-package-item {}
+}
+
+
+
+.labpage-package-item-para {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    color: rgba(47, 47, 47, 1);
+    margin: 4px;
+}
+
+.labpage-package-item-review-container {
+    display: flex;
+}
+
+.labpage-package-item-review {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgba(47, 47, 47, 1);
+    margin-top: 4px;
+}
+
+.labpage-package-item-review-star-icon {
+    color: rgba(226, 231, 0, 1);
+    margin: 4px;
+
+}
+
+.labpage-package-item-review-count {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(110, 110, 110, 1);
+    margin: 4px;
+}
+
+.labpage-package-item-test-count-para {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    color: rgba(47, 47, 47, 1);
+    margin: 4px;
+
+}
+
+.labpage-package-item-test-price {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(110, 110, 110, 1);
+    margin: 4px;
+
+}
+
+.labpage-package-item-test-price-span {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 4px;
+    line-height: 20px;
+    color: rgba(47, 47, 47, 1);
+    margin-left: 20px;
+
+
+
+}
+
+.labpage-package-item-btn {
+    width: 80%;
+    max-width: 264px;
+    height: 43px;
+    margin-top: 12px;
+    border-radius: 6px;
+    border-width: 0px;
+    background: rgba(0, 141, 217, 1);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    align-self: center;
+}
+
+
+
+.labpage-chooseus-container {
+    margin-top: 36px;
+}
+
+.labpage-chooseus-heading {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: center;
+    color: #2F2F2F;
+}
+
+.labpage-chooseus-heading-span {
+    background-image: url('https://res.cloudinary.com/dynbs55bk/image/upload/v1695127990/not_in_line/Vector_1_gfg2gg.png');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 100% 12px;
+    color: #138ED1;
+}
+
+.labpage-chooseus-para {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    color: rgba(110, 110, 110, 1);
+    text-align: center;
+
+}
+
+
+.labpage-chooseus-bottom-container-md {
+    background-image: url('https://res.cloudinary.com/dynbs55bk/image/upload/v1695193078/not_in_line/expressive-young-woman-posing-studio-removebg-preview-transformed_1_1_w2bx4b.png');
+    background-size: contain;
+
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    display: flex;
+    margin-right: 36px;
+
+}
+
+.labpage-chooseus-bottom-container-md2 {
+    position: relative;
+    background-image: linear-gradient(to bottom, #ffffff, #e8f7ff);
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .labpage-chooseus-bottom-container-md {
+        display: none;
+    }
+}
+
+.labpage-chooseus-item-container {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-top: 82px;
+
+}
+
+.labpage-chooseus-item {
+    width: 373px;
+    height: 226px;
+    border-radius: 33px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+    background: rgba(255, 255, 255, 1);
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 84px;
+
+}
+
+.labpage-chooseus-item:nth-child(even) {
+    margin-top: 58px;
+}
+
+.labpage-chooseus-img-container {
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, 1);
+    border: 3px solid rgba(255, 255, 255, 1);
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -35px;
+    top: -60px;
+}
+
+.labpage-chooseus-item-heading {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35px;
+    color: rgba(47, 47, 47, 1);
+    margin-top: 18px;
+    margin-left: 15px;
+    width: 60%;
+
+}
+
+.labpage-chooseus-item-para {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(47, 47, 47, 1);
+    margin-top: 18px;
+    margin-left: 15px;
+    width: 60%;
+
+}
+
+.label-chooseus-item-img {
+    width: 60%;
+    height: 60%;
+}
+
+
+.labpage-chooseus-bottom-container-sm {
+    background-image: linear-gradient(to bottom, #ffffff, #e8f7ff);
+    z-index: -2;
+    position: relative;
+}
+
+@media screen and (min-width: 768px) {
+    .labpage-chooseus-bottom-container-sm {
+        display: none;
+    }
+}
+
+
+.labpage-chooseus-items-sm {
+    list-style: none;
+    padding-left: 0px;
+
+}
+
+.labpage-choose-item {
+    margin: auto;
+    width: 90%;
+    max-width: 312px;
+    min-height: 77px;
+    border-radius: 38.5px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    margin-bottom: 20px;
+
+}
+
+.labpage-chooseus-item-title-btn-con {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.labpage-chooseus-item-summary-container {
+    display: flex;
+
+}
+
+.labpage-chooseus-item-img-sm {
+    width: 40px;
+    height: 40px;
+    border: 3px;
+
+}
+
+.labpage-chooseus-item-heading-sm {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 35px;
+    color: rgba(47, 47, 47, 1);
+    margin-top: 0px;
+
+}
+
+.labpage-chooseus-item-btn {
+    background-color: transparent;
+    color: rgba(28, 27, 31, 1);
+    width: 24px;
+    height: 24px;
+    border: 0px;
+
+}
+
+.chooseus-item-btn-icon {
+    font-size: 24px;
+}
+
+.labpage-chooseus-bgimg-sm {
+
+    width: 100%;
+
+}
+
+@media screen and (min-width: 768px) {
+    .labpage-chooseus-bgimg-sm {
+        display: none;
+    }
+}
+
+
+
+.footer-container {
+    background: rgba(31, 31, 31, 1);
+
+}
+
+.footer-top-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-top-container {
+        flex-direction: column;
+    }
+}
+
+.footer-summary {
+
+    width: 40%;
+    margin-right: 30px;
+
+}
+
+@media screen and (max-width: 767px) {
+    .footer-summary {
+        width: 90%;
+        padding: 20px;
+
+    }
+}
+
+.footer-logo {
+    width: 137px;
+    height: 137px;
+
+}
+
+.footer-summary-para {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+    width: 80%;
+}
+
+@media screen and (max-width: 767px) {
+
+    .footer-logo {
+        width: 37px;
+        height: 44.23px;
+    }
+
+    .footer-summary-para {
+        width: 100%;
+        font-size: 10px;
+
+    }
+}
+
+.footer-tab-container {
+    display: flex;
+
+}
+
+.footer-tab-item-container {
+    list-style: none;
+    padding-left: 0px;
+    margin-right: 64px;
+}
+
+
+
+.footer-tab-item-heading {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+
+.footer-tab-item-para {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-lower-para {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 0px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 20px;
+
+
+}
+
+.footer-cp-icon {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    margin-right: 8px;
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .footer-tab-container {
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .footer-tab-item-container {
+        margin: auto;
+    }
+
+    .footer-tab-item-heading {
+
+        font-size: 12px;
+        line-height: 20px;
+
+    }
+
+    .footer-tab-item-para {
+        font-size: 8px;
+        line-height: 15px;
+    }
+
+    .footer-lower-para {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+}
+
+.labpage-chooseus-bg-md {
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 150px;
+    font-weight: 600;
+    line-height: 222px;
+    color: rgba(0, 166, 255, 0.52);
+    z-index: 0;
+
+
+
+}
+
+.labpage-chooseus-bg-md1 {
+    bottom: -50px;
+
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px rgba(0, 166, 255, 0.52);
+}
+
+.labpage-chooseus-bg-md2 {
+
+    bottom: 100px;
+
+}
+
+.labpage-chooseus-bg-md3 {
+    bottom: 250px;
+
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px rgba(0, 166, 255, 0.52);
+}
+
+
+.labpage-chooseus-bg-sm {
+    font-family: Montserrat;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 135px;
+    color: rgba(0, 166, 255, 0.52);
+    position: absolute;
+    z-index: -2;
+}
+
+.labpage-chooseus-bg-sm1 {
+    bottom: -50px;
+
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px rgba(0, 166, 255, 0.52);
+}
+
+.labpage-chooseus-bg-sm2 {
+
+    bottom: 10px;
+
+}
+
+.labpage-chooseus-bg-sm3 {
+    bottom: 70px;
+
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px rgba(0, 166, 255, 0.52);
+}

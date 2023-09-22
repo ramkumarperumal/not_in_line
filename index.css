@@ -874,12 +874,13 @@
 .label-chooseus-item-img {
     width: 60%;
     height: 60%;
+    z-index: 2;
 }
 
 
 .labpage-chooseus-bottom-container-sm {
     background-image: linear-gradient(to bottom, #ffffff, #e8f7ff);
-    z-index: -2;
+
     position: relative;
 }
 
@@ -952,7 +953,7 @@
 }
 
 .labpage-chooseus-bgimg-sm {
-
+    z-index: 1;
     width: 100%;
 
 }
@@ -967,6 +968,7 @@
 
 .footer-container {
     background: rgba(31, 31, 31, 1);
+    width: 100%;
 
 }
 
@@ -1117,9 +1119,12 @@
     line-height: 222px;
     color: rgba(0, 166, 255, 0.52);
     z-index: 0;
+}
 
-
-
+@media screen and (max-width: 767px) {
+    .labpage-chooseus-bg-md {
+        display: none;
+    }
 }
 
 .labpage-chooseus-bg-md1 {
@@ -1144,14 +1149,23 @@
 
 
 .labpage-chooseus-bg-sm {
+
     font-family: Montserrat;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 600;
     line-height: 135px;
     color: rgba(0, 166, 255, 0.52);
     position: absolute;
-    z-index: -2;
+
+
 }
+
+@media screen and (min-width:768px) {
+    .labpage-chooseus-bg-sm {
+        display: none;
+    }
+}
+
 
 .labpage-chooseus-bg-sm1 {
     bottom: -50px;
